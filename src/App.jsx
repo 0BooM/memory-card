@@ -48,7 +48,7 @@ function App() {
           </div>
         </div>
       )}
-      <div className="grid lg:grid-cols-5 lg:grid-rows-4 gap-8 px-10 container mx-auto md:grid-cols-3 sm:grid-cols-2 grid-cols-1">
+      <div className="grid lg:grid-cols-5 lg:grid-rows-4 gap-8 px-10 container mx-auto md:grid-cols-3 sm:grid-cols-2 grid-cols-1 pb-10">
         {pokemons.map((pokemon, i) => (
           <Card
             key={i}
